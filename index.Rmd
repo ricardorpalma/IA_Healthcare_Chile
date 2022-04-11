@@ -1,6 +1,6 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+title: "IA en la Gestión de Salud"
+author: "Ricardo R. Palma Conti , Leopoldo Lopez Lastra"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -9,10 +9,50 @@ bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
 github-repo: rstudio/bookdown-demo
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+description: "Primer curso de Modelos de Inteligencia Artificial para la Gestión de Sistemas de Salud. Universidad de Talca - Chile. "
 ---
 
-# Prerequisites
+# Prefacio
+
+![Universid de Talca - Chile](Logo.png)
+
+## Modelos de Inteligencia Artificial para la Gestión de Sistemas de Salud
+
+
+
+A través de esta asignatura los alumnos profesionales son habilitados en la creación, implementación y comprensión de los resultados de modelos de Inteligencia Artificial.
+En el sector de la salud existen una gran cantidad de datos que en general no son explotados en la toma de decisiones. Las materias que se verán en este curso permitirán a estudiante profesional hacer uso de la información disponible para así mejorar la toma de decisiones.
+
+## Objetivos
+
+### Objetivo General:
+
+Crear, implementar y comprender los resultados de modelos de Inteligencia
+Artificial.
+
+### Objetivos Específicos:
+
+* Comprender qué es la inteligencia Artificial (IA)
+* Modelar y aplicar modelos de IA para gestión de sistemas de salud
+
+
+
+## Tópicos Abordados
+
+* El flujo de trabajo en Inteligencia Artificial
+* Captura o generación de DATASETS
+* Tratamiento de la información
+* Tratemiento de los **NA**
+* Análisis exploratorio de datos
+
+
+## Modalidad y Evaluación
+
+El curso se realiza en la modalidad taller.
+En cáda tópico abordado se contruyen modelos compleotos o parciales (que serán completados en el tópico siguente) con datasets disponibles en la red.
+Para la evaluación se espera que se hayan desarrollado las competencias necesarias para desarrollar un documento en formato Markdown expuesto en la red. Sería conveniente alimentar los modelos desarrollados para la evaluación con datos reales, pero teniendo en cuenta que en algunos casos pueden tener información sensible o confidencial se acordarán astrategias para escalar y ocultar los patrones de comportamiento de los datas para mantener en forma confidencial los datos reservados de personas u organizaciones.
+
+
 
 This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
 
